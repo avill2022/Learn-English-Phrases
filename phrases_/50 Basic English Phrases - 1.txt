@@ -1,0 +1,50 @@
+Me sorprendiste-You surprised me-1
+Buen trabajo-Great job-2
+Mira por alla-Look over there-3
+Que es eso?-What is that?-4
+Estas enfermo?-Are you sick?-5
+Cuidate-Take care-6
+Voy a trabajar-I am going to work-7
+Que hora es?-What time is it?-8
+Nos vemos-See you later-9
+Donde vives?-Where do you live?-10
+Cual es tu numero de telefono?-What's your phone number?-11
+Donde trabajas?-Where do you work?-12
+Cuantos años tienes?-How old are you?-13
+Tengo 32 anios-I am 32 yerars old-14
+No importa-Never mind-15
+Diviertete-Have fun-16
+Salud-Cheers-17
+Tengo hambre-I am hungry-18
+Necesito algo para tomar-I need something to drink-19
+Me duele la cabeza-My head hurts-20
+Una vez mas-One more time-21
+Puedo usar tu telefono-Can i use your phone-22
+Estoy cansado-I am tired-23
+Comamos-Let's eat-24
+Puedes lavar los platos-Can you wash the dishes-25
+Ven-Come here-26
+Cuesta 13.79-It costs 13.79-27
+Quiero comer pizza-I want to eat pizza-28
+Amarra tus zapatos-Tie your shoes-29
+Que es ese sonido?-What is that sound?-30
+El cafe esta muy caliente-The coffe is very hot-31
+Que dijiste?-What did you say?-32
+Lo prometo-I promise-33
+Pagaste la cuenta?-Did you pay the bill?-34
+No tengo hijos-I dont't have children-35
+Gracias por el regalo-Thank you for the gift-36
+Quisiera pan con queso-I would licke bread whith cheese-37
+Vamos al parque-Let's go to the parck-38
+Cuantas computadoras tienes?-How many computers do you have?-39
+Quiero ir contigo-I want to go with you-40
+Hace frio afuera!-It's cold outside!-41
+Disculpa!-I am sorry!-42
+Prende la luz-Turn on the light-43
+No te creo-I don't believe you-44
+No te preocupes-Don't worry-45
+Silencio!-Be quiet!-46
+Di algo-Say something-47
+Mirame-Look at me-48
+Puedes tocar piano?-Can you play piano?-49
+Quien hizo esto?-Who did this?-50
