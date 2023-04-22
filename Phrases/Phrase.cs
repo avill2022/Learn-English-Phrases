@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Media;
+using System.Windows.Forms;
 
 namespace Phrases
 {
-    class Phrase
+    class Phrases
     {
         private String phraseE;
         public String _phraseE { get { return phraseE; } }
@@ -15,7 +16,7 @@ namespace Phrases
         private SoundPlayer Callphrase;
         private int indice;
 
-        public Phrase(String E,String I,int i)
+        public Phrases(String E,String I,int i)
         {
             phraseI = I;
             phraseE = E;
@@ -25,7 +26,11 @@ namespace Phrases
         }
         public void play()
         {
-            Callphrase.Play();
+            try { 
+                Callphrase.Play();
+            }catch(System.IO.FileNotFoundException e){
+                MessageBox.Show("sound_ folder is required, You can download them from here: ");
+            }
         }
     }
 }

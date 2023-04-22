@@ -12,14 +12,14 @@ using System.IO;
 
 namespace Phrases
 {
-    public partial class Form1 : Form
+    public partial class Phrase : Form
     {
         int opcion;
         List<String> lista = new List<string>();
         Random random = new Random();
-        Stack<Phrase> StackPhrase = new Stack<Phrase>();
+        Stack<Phrases> StackPhrase = new Stack<Phrases>();
 
-        public Form1()
+        public Phrase()
         {
             InitializeComponent();
             opcion = 0;
@@ -142,12 +142,12 @@ namespace Phrases
             }
             if (opcion == 2)
             {
-                Phrase rase = StackPhrase.Peek();
+                Phrases rase = StackPhrase.Peek();
                 LR.Text = rase._phraseE;
             }else
             if (opcion == 3)
             {
-                Phrase rase = StackPhrase.Peek();
+                Phrases rase = StackPhrase.Peek();
                 LR.Text = rase._phraseI;
             }
             Restantes.Text = "Restantes: " + StackPhrase.Count.ToString();
@@ -178,13 +178,13 @@ namespace Phrases
                             StackPhrase.Peek().play();
                             if (opcion == 2)
                             {
-                                Phrase rase = StackPhrase.Peek();
+                                Phrases rase = StackPhrase.Peek();
                                 LR.Text = rase._phraseE;
                             }
                             else
                                 if (opcion == 3)
                                 {
-                                    Phrase rase = StackPhrase.Peek();
+                                    Phrases rase = StackPhrase.Peek();
                                     LR.Text = rase._phraseI;
                                 }
                         }
@@ -198,7 +198,7 @@ namespace Phrases
                     Entrada.Text = "";
                 }
         }
-        private bool comparaCadenas(string caden, Phrase phrase)
+        private bool comparaCadenas(string caden, Phrases phrase)
         {
             switch (opcion)
             {
@@ -225,7 +225,7 @@ namespace Phrases
             FileStream archivo = new FileStream("phrases_\\"+ nombre +".txt", FileMode.Open, FileAccess.Read);
             StreamReader leer = new StreamReader(archivo);
             String n = "";
-            List<Phrase> aux = new List<Phrase>();
+            List<Phrases> aux = new List<Phrases>();
             while (leer.Peek() != -1)
             {
                n = leer.ReadLine().ToString();
@@ -254,12 +254,12 @@ namespace Phrases
                        }
                    }
                }
-               aux.Add(new Phrase(limpiaCadena(n1),limpiaCadena(n2), int.Parse(n3)));
+               aux.Add(new Phrases(limpiaCadena(n1),limpiaCadena(n2), int.Parse(n3)));
             }
             reordenaLista(aux);
             leer.Close();
         }
-        private void reordenaLista(List<Phrase> listaP)
+        private void reordenaLista(List<Phrases> listaP)
         {
             while(listaP.Count!=0)
             {
@@ -291,6 +291,11 @@ namespace Phrases
         private void Regresar_Click(object sender, EventArgs e)
         {
             reiniciar();
+        }
+
+        private void Phrase_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

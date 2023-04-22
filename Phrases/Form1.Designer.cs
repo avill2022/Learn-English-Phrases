@@ -1,6 +1,6 @@
 ﻿namespace Phrases
 {
-    partial class Form1
+    partial class Phrase
     {
         /// <summary>
         /// Variable del diseñador requerida.
@@ -171,7 +171,7 @@
             this.Restantes.Text = "Restantes: ?";
             this.Restantes.Visible = false;
             // 
-            // Form1
+            // Phrase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -190,10 +190,11 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.MaximumSize = new System.Drawing.Size(300, 300);
             this.MinimumSize = new System.Drawing.Size(300, 300);
-            this.Name = "Form1";
+            this.Name = "Phrase";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.TransparencyKey = System.Drawing.SystemColors.ActiveCaption;
+            this.Load += new System.EventHandler(this.Phrase_Load);
             this.Opciones.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
